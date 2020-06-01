@@ -1,0 +1,19 @@
+{
+  "name": "mochatest",
+  "version": "1.0.0",
+  "description": "Sample API testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mocha-simple-html-reporter --reporter-options output=./report/report.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.2.0",
+    "mocha-simple-html-reporter": "^1.1.0",
+    "request": "^2.88.2",
+    "supertest": "^3.0.0"
+  }
+}
